@@ -21,4 +21,4 @@ npm test
 1. Clone le repo
 2. Installe Node.js 20
 3. Installe les dépendances
-4. Lance les tests Jest
+4. Lance les tests Jest## Mise à jour v1.1
