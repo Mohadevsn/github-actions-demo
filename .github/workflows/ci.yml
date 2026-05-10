@@ -20,7 +20,7 @@ jobs:
             - name: Install Node js
               uses: actions/setup-node@v4
               with: 
-                node-version: '20'
+                node-version: '24'
                 cache: 'npm'
 
             - name: Install dependancies
@@ -43,7 +43,7 @@ jobs:
             - name: Install Node js
               uses: actions/setup-node@v4
               with: 
-                node-version: '20'
+                node-version: '24'
                 cache: 'npm'
 
             - name: Install dependancies
@@ -94,7 +94,7 @@ jobs:
             - name: Deployment's summary 
               run: |
                 echo "## Successfull deployment" > $GITHUB_STEP_SUMMARY
-                echo "- **Commit** : ${{github.sha}}" > $GITHUB_STEP_SUMMARY
-                echo "- **Author** : ${{github.actor}}" > $GITHUB_STEP_SUMMARY
-                echo "- **Date** : $(date)" > $GITHUB_STEP_SUMMARY
-                echo "- **URL** : https://our-app.exemple.com" > $GITHUB_STEP_SUMMARY
+                echo "- **Commit** : ${{github.sha}}" >> $GITHUB_STEP_SUMMARY
+                echo "- **Author** : ${{github.actor}}" >> $GITHUB_STEP_SUMMARY
+                echo "- **Date** : $(date)" >> $GITHUB_STEP_SUMMARY
+                echo "- **URL** : https://our-app.exemple.com" >> $GITHUB_STEP_SUMMARY
