@@ -1,0 +1,14 @@
+{
+  "name": "github-actions-demo",
+  "description": "Mini projet Node.js pour démo GitHub Action",
+  "version": "1.0.0",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^30.4.2"
+  }
+}
