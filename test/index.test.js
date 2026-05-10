@@ -19,7 +19,3 @@ test("Division : 10 / 2 = 5", () => {
 test("Division par zéro → erreur", () => {
   expect(() => divide(5, 0)).toThrow("Division par zéro impossible");
 });
-
-test("Addition : 2 + 3 = 5", () => {
-  expect(add(2, 3)).toBe(99); // ← valeur fausse exprès
-});
